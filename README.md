@@ -4,7 +4,7 @@ A simple reverse proxy designed to allow Claude Cowork and Claude Code to access
 
 ## Purpose
 
-Claude requires HTTPS for API connections unless the gateway is `127.0.0.1`. This reverse proxy acts as a bridge, allowing you to configure Claude to use `http://127.0.0.1:8000` while it forwards all requests to your actual local vLLM server.
+Claude requires HTTPS for API connections unless the gateway is `127.0.0.1`. This reverse proxy acts as a bridge, allowing you to configure Claude to use `http://127.0.0.1:8000` while it forwards all requests to an unencrypted vLLM server on your local network.
 
 ## Installation
 
